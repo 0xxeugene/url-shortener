@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.backround {
+.backrgound {
   background: #54457f;
   width: 100%;
 }

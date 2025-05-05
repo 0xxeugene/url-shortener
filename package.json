@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "postcss tailwindcss -i ./src/input.css -o ./dist/style.css --minify",
+    "build": "postcss ./src/input.css -o ./dist/style.css --minify",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tailwindcss -i ./src/input.css -o ./dist/style.css --watch"
   },
   "author": "",
   "license": "ISC",
   "description": "",
-  "devDependencies": {
+  "dependencies": {
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.3",
     "postcss-cli": "^11.0.1",

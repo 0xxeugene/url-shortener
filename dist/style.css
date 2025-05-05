@@ -104,13 +104,9 @@
   --tw-contain-layout:  ;
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
-}
-
-/*
+}/*
 ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com
-*/
-
-/*
+*//*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
 */
@@ -118,14 +114,10 @@
 *,
 ::before,
 ::after {
-  box-sizing: border-box;
-  /* 1 */
-  border-width: 0;
-  /* 2 */
-  border-style: solid;
-  /* 2 */
-  border-color: #e5e7eb;
-  /* 2 */
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: #e5e7eb; /* 2 */
 }
 
 ::before,
@@ -145,23 +137,15 @@
 
 html,
 :host {
-  line-height: 1.5;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
-  -moz-tab-size: 4;
-  /* 3 */
+  line-height: 1.5; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -moz-tab-size: 4; /* 3 */
   -o-tab-size: 4;
-     tab-size: 4;
-  /* 3 */
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  /* 4 */
-  font-feature-settings: normal;
-  /* 5 */
-  font-variation-settings: normal;
-  /* 6 */
-  -webkit-tap-highlight-color: transparent;
-  /* 7 */
+     tab-size: 4; /* 3 */
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
+  font-feature-settings: normal; /* 5 */
+  font-variation-settings: normal; /* 6 */
+  -webkit-tap-highlight-color: transparent; /* 7 */
 }
 
 /*
@@ -170,10 +154,8 @@ html,
 */
 
 body {
-  margin: 0;
-  /* 1 */
-  line-height: inherit;
-  /* 2 */
+  margin: 0; /* 1 */
+  line-height: inherit; /* 2 */
 }
 
 /*
@@ -183,12 +165,9 @@ body {
 */
 
 hr {
-  height: 0;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  border-top-width: 1px;
-  /* 3 */
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+  border-top-width: 1px; /* 3 */
 }
 
 /*
@@ -243,14 +222,10 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  /* 1 */
-  font-feature-settings: normal;
-  /* 2 */
-  font-variation-settings: normal;
-  /* 3 */
-  font-size: 1em;
-  /* 4 */
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+  font-feature-settings: normal; /* 2 */
+  font-variation-settings: normal; /* 3 */
+  font-size: 1em; /* 4 */
 }
 
 /*
@@ -288,12 +263,9 @@ sup {
 */
 
 table {
-  text-indent: 0;
-  /* 1 */
-  border-color: inherit;
-  /* 2 */
-  border-collapse: collapse;
-  /* 3 */
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+  border-collapse: collapse; /* 3 */
 }
 
 /*
@@ -307,26 +279,16 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
-  /* 1 */
-  font-feature-settings: inherit;
-  /* 1 */
-  font-variation-settings: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  font-weight: inherit;
-  /* 1 */
-  line-height: inherit;
-  /* 1 */
-  letter-spacing: inherit;
-  /* 1 */
-  color: inherit;
-  /* 1 */
-  margin: 0;
-  /* 2 */
-  padding: 0;
-  /* 3 */
+  font-family: inherit; /* 1 */
+  font-feature-settings: inherit; /* 1 */
+  font-variation-settings: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  font-weight: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+  letter-spacing: inherit; /* 1 */
+  color: inherit; /* 1 */
+  margin: 0; /* 2 */
+  padding: 0; /* 3 */
 }
 
 /*
@@ -347,12 +309,9 @@ button,
 input:where([type='button']),
 input:where([type='reset']),
 input:where([type='submit']) {
-  -webkit-appearance: button;
-  /* 1 */
-  background-color: transparent;
-  /* 2 */
-  background-image: none;
-  /* 2 */
+  -webkit-appearance: button; /* 1 */
+  background-color: transparent; /* 2 */
+  background-image: none; /* 2 */
 }
 
 /*
@@ -394,10 +353,8 @@ Correct the cursor style of increment and decrement buttons in Safari.
 */
 
 [type='search'] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
 }
 
 /*
@@ -414,10 +371,8 @@ Remove the inner padding in Chrome and Safari on macOS.
 */
 
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
 }
 
 /*
@@ -468,7 +423,6 @@ menu {
 /*
 Reset default styling for dialogs.
 */
-
 dialog {
   padding: 0;
 }
@@ -487,18 +441,14 @@ textarea {
 */
 
 input::-moz-placeholder, textarea::-moz-placeholder {
-  opacity: 1;
-  /* 1 */
-  color: #9ca3af;
-  /* 2 */
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
 }
 
 input::placeholder,
 textarea::placeholder {
-  opacity: 1;
-  /* 1 */
-  color: #9ca3af;
-  /* 2 */
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
 }
 
 /*
@@ -513,7 +463,6 @@ button,
 /*
 Make sure disabled buttons don't get the pointer cursor.
 */
-
 :disabled {
   cursor: default;
 }
@@ -532,10 +481,8 @@ audio,
 iframe,
 embed,
 object {
-  display: block;
-  /* 1 */
-  vertical-align: middle;
-  /* 2 */
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
 }
 
 /*
@@ -549,344 +496,270 @@ video {
 }
 
 /* Make elements with the HTML hidden attribute stay hidden by default */
-
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
-
 .absolute {
   position: absolute;
 }
-
 .relative {
   position: relative;
 }
-
 .top-\[-50px\] {
   top: -50px;
 }
-
 .mb-20 {
   margin-bottom: 5rem;
 }
-
 .mb-3 {
   margin-bottom: 0.75rem;
 }
-
 .mb-4 {
   margin-bottom: 1rem;
 }
-
 .mb-5 {
   margin-bottom: 1.25rem;
 }
-
 .ms-auto {
   margin-inline-start: auto;
 }
-
 .mt-10 {
   margin-top: 2.5rem;
 }
-
 .mt-12 {
   margin-top: 3rem;
 }
-
 .mt-2 {
   margin-top: 0.5rem;
 }
-
 .mt-3 {
   margin-top: 0.75rem;
 }
-
 .mt-4 {
   margin-top: 1rem;
 }
-
 .mt-6 {
   margin-top: 1.5rem;
 }
-
 .block {
   display: block;
 }
-
 .flex {
   display: flex;
 }
-
 .hidden {
   display: none;
 }
-
 .h-5 {
   height: 1.25rem;
 }
-
 .w-5 {
   width: 1.25rem;
 }
-
 .w-\[100\%\] {
   width: 100%;
 }
-
 .flex-col {
   flex-direction: column;
 }
-
 .items-center {
   align-items: center;
 }
-
 .justify-start {
   justify-content: flex-start;
 }
-
 .justify-center {
   justify-content: center;
 }
-
 .justify-between {
   justify-content: space-between;
 }
-
 .gap-4 {
   gap: 1rem;
 }
-
 .gap-6 {
   gap: 1.5rem;
 }
-
 .space-x-3 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.75rem * var(--tw-space-x-reverse));
   margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
 }
-
 .space-x-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(1rem * var(--tw-space-x-reverse));
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
-
 .rounded {
   border-radius: 0.25rem;
 }
-
 .rounded-full {
   border-radius: 9999px;
 }
-
 .rounded-lg {
   border-radius: 0.5rem;
 }
-
 .rounded-xl {
   border-radius: 0.75rem;
 }
-
 .border {
   border-width: 1px;
 }
-
 .bg-gray-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1));
 }
-
 .bg-teal-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(20 184 166 / var(--tw-bg-opacity, 1));
 }
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
-
 .p-6 {
   padding: 1.5rem;
 }
-
 .px-36 {
   padding-left: 9rem;
   padding-right: 9rem;
 }
-
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
 }
-
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
-
 .px-7 {
   padding-left: 1.75rem;
   padding-right: 1.75rem;
 }
-
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
 }
-
 .py-16 {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
-
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
-
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
-
 .py-7 {
   padding-top: 1.75rem;
   padding-bottom: 1.75rem;
 }
-
 .py-9 {
   padding-top: 2.25rem;
   padding-bottom: 2.25rem;
 }
-
 .pt-\[100px\] {
   padding-top: 100px;
 }
-
 .text-center {
   text-align: center;
 }
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
 }
-
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
-
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
 }
-
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
-
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
-
 .font-bold {
   font-weight: 700;
 }
-
 .font-extrabold {
   font-weight: 800;
 }
-
 .font-medium {
   font-weight: 500;
 }
-
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
-
 .text-gray-400 {
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity, 1));
 }
-
 .text-gray-600 {
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity, 1));
 }
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
-.backround {
+.backrgound {
   background: #54457f;
   width: 100%;
 }
-
 .shortenBg {
   background-image: url(/images/bg-shorten-desktop.svg);
   width: 100%;
 }
-
 .shortenMtop {
   margin-top: 10px;
 }
-
 .card {
   border: none;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   max-width: 300px;
 }
-
 .card img {
   background: #30264a;
   width: 20%;
 }
-
 footer {
   background: #232027;
 }
-
 footer a {
   font-size: 11px;
   margin-top: 8px;
 }
-
 .hover\:bg-teal-400:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(45 212 191 / var(--tw-bg-opacity, 1));
 }
-
 .hover\:bg-teal-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(15 118 110 / var(--tw-bg-opacity, 1));
 }
-
 .hover\:text-black:hover {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
-
 .hover\:text-teal-400:hover {
   --tw-text-opacity: 1;
   color: rgb(45 212 191 / var(--tw-text-opacity, 1));
 }
-
 .focus\:outline-teal-500:focus {
   outline-color: #14b8a6;
 }
-
 @media (min-width: 768px) {
+
   .md\:mt-0 {
     margin-top: 0px;
   }
